@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Merriweather:wght@300;400;700;900&display=swap');
+/* ===google font=== */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
 /* =======common css======= */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Mulish', sans-serif;
 }
 a{
     text-decoration: none;
@@ -14,24 +15,132 @@ ol,ul{
     list-style: none;
 }
 p{
-    color: #07021199;
-    font-size: 20px;
+    color: #131318b3;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 26px;
 }
 img{
     vertical-align: middle;
 }
 .main-btn{
     color: #fff;
-    background: #F00;
-    font-size: 20px;
+    background: #FF5400;
+    font-size: 16px;
     font-weight: 700;
-    text-transform: uppercase;
-    padding: 16px 32px;
+    text-transform: capitalize;
+    padding: 16px 34px;
     border-radius: 8px;
     border: none;
     outline: none;
     cursor: pointer;
 }
-/* =========header area start======== */
+.main-btn i{
+    padding-right: 8px;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+/* ==header area start== */
+#header{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+/* nav area */
+#header .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header .logo-area{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+#header .logo-area h3{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+#header .logo-area h3 span{
+    color: #FF5400;
+}
+#header .menu-area .mobile-menu{
+    display: none;
+}
+#header .menu-area ul{
+    display: flex;
+}
+#header .menu-area ul li{
+    margin-left: 44px;
+}
+#header .menu-area ul li a{
+    color: #424247;
+    font-size: 18px;
+    text-transform: capitalize;
+    transition: all linear .4s;
+}
+#header .menu-area ul li a:hover{
+    color: #FF5400;
+    /* font-weight: 700; */
+}
+/* banner area */
+#header .banner{
+    background: url(../images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 107px 0;
+    border-radius: 16px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin-top: 50px;
+}
+#header .banner::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    z-index: -1;
+    border-radius: 16px;
+}
+#header .banner-content{
+    width: 850px;
+    margin: 0 auto;
+}
+#header .banner-content h1{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    text-transform: capitalize;
+    padding-bottom: 24px;
+}
+#header .banner-content p{
+    color: #FFF;
+    padding: 0 100px;
+    padding-bottom: 48px;
+}
+#header .banner-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background: rgba(255, 255, 255, 0.30);
+    border-radius: 8px;
+    padding: 16px;
+}
+#header .banner-form input,
+#header .banner-form select{
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 15px;
+    width: 174px;
+}
+/* ==header area end== */

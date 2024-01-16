@@ -1,0 +1,60 @@
+@media only screen and (max-width: 600px) {
+    .container{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    #header{
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+    #header .logo-area{
+        gap: 5px;
+    }
+    #header .logo-area img{
+       height: 22px;
+       width: 22px;
+    }
+    #header .logo-area h3{
+        font-size: 22px;
+        font-weight: 800;
+    }
+    #header .menu-area .mobile-menu{
+        display: block;
+        margin-right: 10px;
+    }
+    #header .menu-area ul{
+        display: none;
+    }
+    #header .banner{
+        margin-top: 20px;
+        padding-top: 32px;
+        padding-bottom: 48px;
+    }
+    #header .banner-content{
+        width: 85%;
+    }
+    #header .banner-content h1{
+        font-size: 22px;
+        padding-bottom: 8;
+    }
+    #header .banner-content p{
+        font-size: 14px;
+        padding: 0;
+        padding-bottom: 32px;
+    }
+    #header .banner-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        background: rgba(255, 255, 255, 0.30);
+        border-radius: 8px;
+        padding: 16px;
+    }
+    #header .banner-form input,
+    #header .banner-form select,
+    #header .banner-form .main-btn{
+        width: 100%;
+    }
+}
