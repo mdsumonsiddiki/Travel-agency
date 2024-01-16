@@ -161,7 +161,7 @@ img{
 /* ==main area start== */
 /* tour area */
 #our-tours{
-    padding-bottom: 76px;
+    padding-bottom: 100px;
 }
 #our-tours .tour-item{
     display: flex;
@@ -183,7 +183,7 @@ img{
 }
 /* ==Destination section== */
 #destination{
-    padding-bottom: 100px;
+    padding-bottom: 76px;
 }
 #destination .des-area{
     padding-top: 48px;
@@ -217,6 +217,164 @@ img{
     left: 50%;
     transform: translate(-50%,-50%);
 }
+/* ==memories area== */
+
+/* ==Choose section== */
+#chooce{
+    padding-bottom: 76px;
+}
+#chooce .section-title{
+    margin-bottom: 24px;
+}
+#chooce .choose-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+#chooce .chooce-info{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px 55px 32px 32px;
+    width: 50%;
+    margin: 0 auto;
+    transition: all linear .4s;
+}
+#chooce .chooce-info:hover{
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+#chooce .chooce-info h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: capitalize;
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+#chooce .chooce-info p{
+    color: #5A5A5D;
+    font-size: 16px;
+}
+/* ==newsletter area== */
+#newsletter{
+    padding-bottom: 100px;
+}
+#newsletter .newsletter-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+#newsletter .newsletter-form{
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+#newsletter .form-content h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding-bottom: 16px;
+}
+#newsletter .form-content p{
+    color: #5A5A5D;
+    padding-bottom: 16px;
+}
+#newsletter .form-content form{
+    padding-top: 16px;
+    border-top: 1px solid #1313181a;
+}
+#newsletter .form-content form input{
+    width: 100%;
+    margin-top: 16px;
+    padding: 16px 20px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+#newsletter .form-content form .main-btn{
+    width: 100%;
+    margin-top: 20px;
+}
+#newsletter .newsletter-info .news-img{
+    position: relative;
+}
+#newsletter .newsletter-info .news-img .news-overlay{
+    position: absolute;
+    right: 10px;
+    bottom: 45px;
+    border-radius: 16px;
+    background: #FF5400;
+    text-align: center;
+    padding: 30px;
+    transform: rotate(-20deg);
+}
+#newsletter .newsletter-info .news-img .news-overlay h4{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+}
+#newsletter .newsletter-info .news-img .news-overlay h4 span{
+    font-size: 32px;
+    font-weight: 800;
+    display: block;
+}
 /* ==main area end== */
-/* ==header area end== */
-/* ==header area end== */
+/* ==footer area end== */
+#footer{
+    background: rgba(19, 19, 24, 0.05);
+    padding: 110px 0;
+    text-align: center;
+}
+#footer .footer-logo{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding-bottom: 15px;
+}
+#footer .footer-logo h3{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+#footer .footer-logo h3 span{
+    color: #FF5400;
+}
+#footer .footer-info p{
+    padding: 0 200px;
+    margin-bottom: 33px;
+}
+#footer .footer-info ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+#footer .footer-info ul li a{
+    color: #131318;
+    font-size: 24px;
+    transition: all linear .4s;
+}
+#footer .footer-info ul li a:hover{
+    color: #FF5400;
+}
+#footer .copy-right{
+    padding-top: 50px;
+    border-top: 1px solid rgba(19, 19, 24, 0.10);
+    width: 872px;
+    margin: 0 auto;
+}
+#footer .copy-right p{
+    color: #131318;
+    font-size: 16px;
+    font-weight: 300;
+}
+/* ==footer area end== */

@@ -118,4 +118,109 @@
         font-size: 20px;
         font-weight: 600;
     }
+    /* ==mempries area== */
+    #memories{
+        padding-bottom: 24px;
+    }
+    #memories .memories-area{
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+    #memories .memories-area .memo-left{
+        width: 100%;
+        height: 100%;
+    }
+    #memories .memories-area .memo-right{
+        width: 100%;
+        height: 100%;
+    }
+    #memories .memories-area .memo-right-info{
+        width: 35%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        margin-bottom: 24px;
+    }
+    /* ==chooce area== */
+    #chooce{
+        padding-bottom: 24px;
+    }
+    #chooce .choose-area{
+        flex-direction: column;
+    }
+    #chooce .chooce-info{
+        padding: 32px;
+        width: 100%;
+    }
+    #chooce .chooce-info h3{
+        color: #131318;
+        font-size: 20px;
+        font-weight: 800;
+        text-transform: capitalize;
+        padding: 16px 0;
+    }
+    /* ==newsletter area==== */
+    #newsletter{
+        padding-bottom: 24px;
+    }
+    #newsletter .newsletter-info{
+        flex-direction: column;
+        gap: 16px;
+    }
+    #newsletter .newsletter-form{
+        padding: 25px;
+    }
+    #newsletter .newsletter-info .news-img{
+        width: 100%;
+    }
+    #newsletter .newsletter-info .news-img img{
+        width: 100%;
+    }
+    #newsletter .newsletter-info .news-img .news-overlay{
+        right: 4px;
+        bottom: 25px;
+        padding: 10px;
+    }
+    #newsletter .newsletter-info .news-img .news-overlay h4 span{
+        font-size: 21px;
+        font-weight: 800;
+    }
+    /* ===footer area== */
+    #footer{
+        padding: 33px 0;
+    }
+    #footer .footer-logo{
+        gap: 5px;
+        padding-bottom: 10px;
+    }
+    #footer .footer-logo img{
+        height: 22px;
+        width: 22px;
+    }
+    #footer .footer-logo h3{
+        font-size: 25px;
+    }
+    #footer .footer-logo h3 span{
+        color: #FF5400;
+    }
+    #footer .footer-info p{
+        padding: 0;
+        margin-bottom: 33px;
+    }
+    #footer .footer-info ul{
+        margin-bottom: 25px;
+        gap: 20px;
+    }
+    #footer .footer-info ul li a{
+        font-size: 18px;
+    }
+    #footer .copy-right{
+        padding-top: 25px;
+        width: 100%;
+    }
+    #footer .copy-right p{
+        font-size: 14px;
+    }
 }
