@@ -3,9 +3,20 @@
         max-width: 90%;
         margin: 0 auto;
     }
+    .section-title h2{
+        font-size: 20px;
+        padding-bottom: 18px;
+    }
+    .section-title p{
+        width: 85%;
+    }
+    p{
+        font-size: 14px;
+    }
+    /* =====header section====== */
     #header{
         padding-top: 40px;
-        padding-bottom: 80px;
+        padding-bottom: 24px;
     }
     #header .logo-area{
         gap: 5px;
@@ -56,5 +67,55 @@
     #header .banner-form select,
     #header .banner-form .main-btn{
         width: 100%;
+    }
+
+    /* =======tour section====== */
+    #our-tours{
+        padding-bottom: 24px;
+    }
+    #our-tours .tour-item{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 24px;
+    }
+    #our-tours .tour-img img{
+        width: 100%;
+        object-fit: cover;
+    }
+    #our-tours .tour-details ul{
+        padding: 16px 0px 0px 28px;
+    }
+    #our-tours .tour-btn{
+        margin-top: 24px;
+    }
+    /* ====destination area=== */
+    #destination{
+        padding-bottom: 8px;
+    }
+    #destination .des-area{
+        padding-top: 16px;
+    }
+    #destination .des-info{
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 16px;
+    }
+    #destination .des-img{
+        width: 100%;
+        height: 176px;
+    }
+    #destination .des-img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 16px;
+    }
+    #destination .des-img .img-overlay{
+        border-radius: 16px;
+    }
+    #destination .des-img .img-overlay h4{
+        font-size: 20px;
+        font-weight: 600;
     }
 }
